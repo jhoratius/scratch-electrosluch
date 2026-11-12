@@ -1,0 +1,203 @@
+(footprint "Potentiometer_Alps_RK097_Dual_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "1210, Dual Pot, Horizontal, Alps RK097 Dual,  https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk097/rk097.pdf")
+	(tags "Potentiometer horizontal Alps RK097 Dual")
+	(property "Reference" "REF**"
+		(at 1.01 -4.01 180)
+		(layer "F.SilkS")
+		(uuid "ad9337fe-00ca-4373-93e8-d638ff33ac91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Potentiometer_Dual_Separate"
+		(at -10.5 -4.1 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "227c5e66-0220-4ab7-b6e4-809829824a65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "179f718d-a33b-4efb-8c73-72ac2f971df5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Dual potentiometer, separate units"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d12bc3c6-37d3-4ceb-a188-eec69cfcb852")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Potentiometer*")
+	(sheetname "/")
+	(sheetfile "Electrosluch_aisler.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.12 7.37)
+		(end -5.12 -2.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "111be9d9-c9ae-4270-9ce0-1ef336e7a689")
+	)
+	(fp_line
+		(start 4.671 -2.37)
+		(end -5.12 -2.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fcfb9f0-d247-4827-8bcf-78584ef838cd")
+	)
+	(fp_line
+		(start 4.671 7.37)
+		(end -5.12 7.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f44c8b7d-3e24-47aa-aa2c-3c0bedf6df7f")
+	)
+	(fp_line
+		(start 4.671 7.37)
+		(end 4.671 -2.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c9570bb-dbe8-465a-9406-a33f482dab73")
+	)
+	(fp_line
+		(start -5 -2.25)
+		(end -5 7.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1e137c5-025f-405f-b001-21b1844a9297")
+	)
+	(fp_line
+		(start -5 7.25)
+		(end 4.55 7.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c725f04-3f43-4433-8717-1d8caee92269")
+	)
+	(fp_line
+		(start 4.55 -2.25)
+		(end -5 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "802c1325-2f57-4d5c-9599-dbe8c703187a")
+	)
+	(fp_line
+		(start 4.55 7.25)
+		(end 4.55 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e002a92-2721-4764-b6c8-f3792b8fc2f8")
+	)
+	(pad "1" thru_hole roundrect
+		(at -0.5 -0.5 180)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "78e1f184-3942-4de9-bf0f-f3032c39aecc")
+	)
+	(pad "2" thru_hole circle
+		(at -0.5 2.5 180)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32ff15f4-117f-4b0f-a973-75327c356219")
+	)
+	(pad "3" thru_hole circle
+		(at -1 6.5 180)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fcdab158-5f3c-4978-a8ed-5e16de7e33bf")
+	)
+	(pad "4" thru_hole circle
+		(at 2.5 -0.5 180)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af6c5a83-cfc8-4e31-b6f0-87c62c75a908")
+	)
+	(pad "5" thru_hole circle
+		(at 2.5 2.5 180)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d205e58a-1dfe-4f96-8849-72d9a3f5a1a6")
+	)
+	(pad "6" thru_hole circle
+		(at 3 6.5 180)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a51e8802-2452-4df2-bcf5-da5aa3df6945")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK097_Dual_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
